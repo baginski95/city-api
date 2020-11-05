@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\bin\Debug\netcoreapp2.1\CityInfo.Api.deps.json
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\bin\Debug\netcoreapp2.1\CityInfo.Api.runtimeconfig.json
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\bin\Debug\netcoreapp2.1\CityInfo.Api.runtimeconfig.dev.json
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\bin\Debug\netcoreapp2.1\CityInfo.Api.dll
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\bin\Debug\netcoreapp2.1\CityInfo.Api.pdb
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.AssemblyInfo.cs
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.dll
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.pdb
+C:\Users\user\Desktop\Advance_module\city-api\CityInfo\CityInfo.Api\obj\Debug\netcoreapp2.1\CityInfo.Api.genruntimeconfig.cache
