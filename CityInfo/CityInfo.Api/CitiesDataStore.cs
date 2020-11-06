@@ -19,19 +19,42 @@ namespace CityInfo.Api
             {
                 Id = 1,
                 Name = "Warsaw",
-                Description = "Greatest ciy ever"
+                Description = "Greatest ciy ever",
+                PointsOfInterest = new List<PointOfInterestDto>()
+                {
+                    new PointOfInterestDto() {
+                        Id = 1,
+                        Name = "Kolumna Zygmunta",
+                        Description = "A na srodeczku na staroweczce"
+                    }
+                }
             },
             new CityDto()
             {
                 Id = 2,
                 Name = "Cracow",
-                Description = "There might be a dragon lord, be aware!"
+                Description = "There might be a dragon lord, be aware!",
+                PointsOfInterest = new List<PointOfInterestDto>()
+                {
+                    new PointOfInterestDto() {
+                        Id = 1,
+                        Name = "Smok Wawelski",
+                        Description = "na najwyzszym szczycie"
+                    }
+                }
             },
             new CityDto()
             {
                 Id = 3,
                 Name = "Gorz Wlkp.",
-                Description = "Short distance to Berlin"
+                Description = "Short distance to Berlin",
+                PointsOfInterest = new List<PointOfInterestDto>()
+                {
+                    new PointOfInterestDto() {
+                        Id = 1,
+                        Name = "Ratusz",
+                        Description = "Nie dawno sie palil"
+                }
             }
             };
         }

@@ -7,11 +7,19 @@ namespace CityInfo.Api.Models
 {
     public class CityDto
     {
-        public int Id { get;set }
-        public string Name { get; set }
-        public string Description { get; set }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
 
-        public ICollection<PointOfIntrestDto> PointsOfIntrest { get; set; }
+        public int NumberOfPointsOfInterest
+        {
+            get
+            {
+                return PointsOfInterest.Count;
+            }
+        }
+
+        public ICollection<PointOfIntrestDto> PointsOfInterest { get; set; }
          = new List<PointOfIntrestDto>();
     }
 }
