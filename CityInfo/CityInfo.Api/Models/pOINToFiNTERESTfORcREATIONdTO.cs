@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace CityInfo.Api.Models
 {
-    public class pOINToFiNTERESTfORcREATIONdTO
+    public class PointOfInterestForCreationDto
     {
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

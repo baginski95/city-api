@@ -15,10 +15,12 @@ namespace CityInfo.Api.Controllers
         {
             return Ok(CitiesDataStore.Current.Cities);
         }
-        [HttpGet("{id)")]
+        [HttpGet("{id}")]
         public IActionResult GetCity(int id)
         {
-            var cityToReturn = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id);
+            var cityToReturn = CitiesDataStore.Current.Cities.
+                FirstOrDefault(c => c.Id == id);
+
             if (cityToReturn == null)
             {
                 return NotFound();

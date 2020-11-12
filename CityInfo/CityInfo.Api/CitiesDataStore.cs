@@ -55,8 +55,9 @@ namespace CityInfo.Api
                         Name = "Ratusz",
                         Description = "Nie dawno sie palil"
                 }
+                }
             }
             };
-        }
+        }  
     }
 }
