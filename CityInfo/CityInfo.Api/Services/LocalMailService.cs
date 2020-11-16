@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CityInfo.Api.Services
 {
-    public class LocalMailServicecs
+    public class LocalMailService : IMailService
     {
         private string _mailTo = "admin@mycompany.com";
         private string _mailFrom = "noreply@mycompany.com";
