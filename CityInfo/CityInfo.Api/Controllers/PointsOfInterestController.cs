@@ -1,6 +1,7 @@
 ﻿using CityInfo.Api.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,12 @@ namespace CityInfo.Api.Controllers
     [Route("api/cities/{cityId}/pointsofinterest")]
     public class PointsOfInterestController : ControllerBase
     {
+        private readonly ILogger<PointsOfInterestController> _logger;
+
+        public PointsOfInterestController(ILogger<PointsOfInterestController> logger)
+        {
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+        }
         [HttpGet]
         public IActionResult GetPointsOfInterest(int cityId)
         {
